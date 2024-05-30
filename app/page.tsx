@@ -41,8 +41,8 @@ export default function Home() {
 
       <div className="flex mt-48 ml-12 lg:ml-48">
         <div className="w-custom">
-          <h1 className="text-7xl font-semibold">Hey, I'm <span className="text-indigo-600">Gaël</span></h1>
-          <h2 className="text-4xl h-8">I'm an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
+          <h1 className="text-7xl font-semibold">Hey, I&apos;m <span className="text-indigo-600">Gaël</span></h1>
+          <h2 className="text-4xl h-8">I&apos;m an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
           <div className="pt-2"> 
             <p className="text-xl pt-4">I currently live in <span className="bg-slate-800 rounded-lg p-1">Bordeaux, France 🇫🇷</span></p>
             <div className="pt-2">
