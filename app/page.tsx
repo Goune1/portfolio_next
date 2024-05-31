@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="ml-8 lg:ml-48 pb-96">
+      <div className="ml-8 lg:ml-48 pb-48">
         <Badge>Skills</Badge>
 
         <div className="mt-4">
