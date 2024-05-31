@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="mr-8">
+        <div className="">
           <img src="images/r9.jpg" className="rounded-full w-72 h-24 lg:w-72 lg:h-72" alt="" />
         </div>
       </div>
