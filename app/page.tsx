@@ -84,7 +84,7 @@ export default function Home() {
               <img src="images/Tailwind_CSS_Logo.svg.png" className="h-24 w-36" alt="" />
               <div className="mt-2">
                 <h1 className="text-3xl ml-1 mt-1">Tailwind</h1>
-                <p className="text-lg ml-1">I can create beautifuls applications in seconds thanks to <span className="bg-slate-800 rounded-lg p-1">Tailwind</span></p>
+                <p className="text-lg ml-1">I can create beautifuls apps in seconds using <span className="bg-slate-800 rounded-lg p-1">Tailwind</span></p>
               </div>
             </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
               <img src="images/openai.png" className="h-24 " alt="" />
               <div className="mt-2">
                 <h1 className="text-3xl ml-1 mt-1">AI Integration</h1>
-                <p className="text-lg ml-1">I enjoy integrate <span className="bg-slate-800 rounded-lg p-1">AI like ChatGPT</span> in your applications in order to create an excellent user experience</p>
+                <p className="text-lg ml-1">I love integrating <span className="bg-slate-800 rounded-lg p-1">AIs like ChatGPT</span> into your apps in order to create a great user experience</p>
               </div>
             </div>
           </div>
