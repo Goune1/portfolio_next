@@ -93,7 +93,7 @@ const config = {
         "spotlight": "spotlight 2s ease .75s 1 forwards",
       },
       width: {
-        'custom': '35rem'
+        'custom': '40rem'
       },
       screens: {
         'sm': '640px',
