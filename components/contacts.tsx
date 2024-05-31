@@ -44,7 +44,7 @@ export default function Example() {
       // Afficher le message de succès
       setSuccessMessage('Votre email a été envoyé avec succès !');
     } catch (error) {
-      console.error('Erreur lors de l\'envoi du formulaire:', error);
+      console.error('Erreur lors de l&apos;envoi du formulaire:', error);
     }
   };
 
@@ -185,7 +185,7 @@ export default function Example() {
                 })
             }}
           >
-            Let's talk
+            Let&apos;s talk
           </button>
         </div>
       </form>
