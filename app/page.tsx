@@ -20,8 +20,10 @@ export default function Home() {
   
   const WordsArray = [
     'creative',
-    'smart',
-    'ingenious'
+    'passionate',
+    'ingenious',
+    'collaborative',
+    'detail-oriented'
   ];
 
   useEffect(() => {
