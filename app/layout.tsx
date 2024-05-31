@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { GeistSans } from "geist/font/sans";
 import { Toaster } from "@/components/ui/toaster"
+import { Analytics } from "@vercel/analytics/react"
 
 
 export const metadata: Metadata = {
@@ -20,6 +20,7 @@ export default function RootLayout({
       <body>
         <main>{children}</main>
         <Toaster/>
+        <Analytics/>
       </body>
       
     </html>
