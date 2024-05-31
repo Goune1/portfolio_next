@@ -13,7 +13,7 @@ import { Badge } from "@/components/ui/badge"
 
 export default function CardSection() {
     return (
-        <div className="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-1 lg:grid-cols-3 custom:grid-cols-3  mt-24 ">
+        <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2 custom:grid-cols-3 mt-24">
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>WineService</CardTitle>
