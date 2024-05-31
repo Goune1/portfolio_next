@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Image from 'next/image'
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,7 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import FlipWords from '@/components/ui/flip';
 import CardSection from '@/components/card_section';
 import Contact from '@/components/contacts';
-import Socials from '@/components/socials';
+import Socials from '@/components/socials'
 import Footer from '@/components/footer';
 
 import AOS from 'aos';
@@ -98,6 +99,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Contact/>
 
       <Footer/>
     </>
