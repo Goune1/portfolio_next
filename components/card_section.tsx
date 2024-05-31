@@ -14,7 +14,7 @@ import { Badge } from "@/components/ui/badge"
 export default function CardSection() {
     return (
         <div className="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-1 lg:grid-cols-3 custom:grid-cols-3  mt-24 ">
-            <Card className="w-96 h-96">
+            <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>WineService</CardTitle>
                     <a href="https://wine.gounevps.com" className="text-cyan-400">wine.gounevps.com</a>
@@ -27,7 +27,7 @@ export default function CardSection() {
                 </CardContent>
             </Card>
 
-            <Card className="w-96 h-96">
+            <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>EasyBot</CardTitle>
                     <a href="https://wine.gounevps.com" className="text-cyan-400">wine.gounevps.com</a>
@@ -40,7 +40,7 @@ export default function CardSection() {
                 </CardContent>
             </Card>
 
-            <Card className="w-96 h-96">
+            <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>Portfolio</CardTitle>
                     <a href="https://portfolio.gounevps.com" className="text-cyan-400">portofolio.gounevps.com</a>
