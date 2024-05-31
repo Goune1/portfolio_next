@@ -78,7 +78,7 @@ export default function Home() {
               <img src="images/react.svg" className="h-24 w-24" alt="" />
               <div className="mt-2">
                 <h1 className="text-3xl ml-1 mt-1">React</h1>
-                <p className="text-lg ml-1"><span className="bg-slate-800 rounded-lg p-1">React</span> is my main framework. I also work with <span className="bg-slate-800 rounded-lg p-1">Next.js</span> as a fullstuck framework</p>
+                <p className="text-lg ml-1"><span className="bg-slate-800 rounded-lg p-1">React</span> is my main framework. I also work with <span className="bg-slate-800 rounded-lg p-1">Next.js</span> as a fullstack framework</p>
               </div>
             </div>
 
