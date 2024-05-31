@@ -95,6 +95,15 @@ const config = {
       width: {
         'custom': '35rem'
       },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+        'custom': '1374px', // Exemple de breakpoint personnalisé
+        'custom2': '1367px' // Exemple de breakpoint personnalisé avec un intervalle
+      },
     },
   },
   plugins: [
