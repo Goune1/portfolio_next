@@ -25,7 +25,7 @@ export default function Home() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durée de l'animation en millisecondes
+      duration: 1000, 
     });
   }, []);
 
@@ -39,20 +39,20 @@ export default function Home() {
       </div>
 
 
-      <div className="flex mt-48 ml-12 lg:ml-48">
+      <div className="flex mt-24 lg:mt-48 ml-12 lg:ml-48">
         <div className="w-custom">
-          <h1 className="text-7xl font-semibold">Hey, I&apos;m <span className="text-indigo-600">Gaël</span></h1>
-          <h2 className="text-4xl h-8">I&apos;m an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
-          <div className="pt-2"> 
-            <p className="text-xl pt-4">I currently live in <span className="bg-slate-800 rounded-lg p-1">Bordeaux, France 🇫🇷</span></p>
+          <h1 className="text-4xl lg:text-7xl font-semibold">Hey, I&apos;m <span className="text-indigo-600">Gaël</span></h1>
+          <h2 className="text-2xl lg:text-4xl h-8">I&apos;m an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
+          <div className="pt-4 lg:pt-2"> 
+            <p className="text-lg lg:text-xl pt-4">I currently live in <span className="bg-slate-800 rounded-lg p-1">Bordeaux, France 🇫🇷</span></p>
             <div className="pt-2">
               <Socials/>
             </div>
           </div>
           
         </div>
-        <div className="ml-24">
-          <img src="images/r9.jpg" className="rounded-full  w-72 h-72" alt="" />
+        <div className="mr-8">
+          <img src="images/r9.jpg" className="rounded-full w-48 h-24 lg:w-72 lg:h-72" alt="" />
         </div>
       </div>
 
@@ -67,13 +67,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="ml-48 pb-96">
+      <div className="ml-8 lg:ml-48 pb-96">
         <Badge>Skills</Badge>
 
         <div className="mt-4">
           <h1 className="text-5xl font-semibold">I <span className="text-indigo-600 font-bold">love</span> working on...</h1>
           
-          <div className="flex gap-x-24 mt-24" >
+          <div className="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-1 lg:grid-cols-3 custom:grid-cols-3 mt-24" >
             <div className="flex flex-col w-96">
               <img src="images/react.svg" className="h-24 w-24" alt="" />
               <div className="mt-2">
