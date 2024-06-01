@@ -29,13 +29,13 @@ export default function CardSection() {
 
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
-                    <CardTitle>EasyBot</CardTitle>
-                    <a href="https://wine.gounevps.com" className="text-cyan-400">wine.gounevps.com</a>
+                    <CardTitle>Spotistats</CardTitle>
+                    <a href="https://spotistats.gounevps.com" className="text-cyan-400">spotistats.gounevps.com</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot2.png" alt="" />
                     <div className="mt-8">
-                        <Badge>React JS</Badge> <Badge>Tailwind</Badge> <Badge>Express</Badge> <Badge>MongoDB</Badge>
+                        <Badge>React JS</Badge> <Badge>Tailwind</Badge>
                     </div>
                 </CardContent>
             </Card>
