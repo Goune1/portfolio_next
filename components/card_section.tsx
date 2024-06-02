@@ -35,7 +35,7 @@ export default function CardSection() {
                 <CardContent>
                     <img src="images/app_screenshot2.png" alt="" />
                     <div className="mt-8">
-                        <Badge>React JS</Badge> <Badge>Tailwind</Badge>
+                        <Badge>React JS</Badge> <Badge>Tailwind</Badge> <Badge>ChatGPT integration</Badge>
                     </div>
                 </CardContent>
             </Card>
