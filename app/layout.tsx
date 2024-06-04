@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={GeistSans.className}>
+      <meta name="google-site-verification" content="J2f7k-O_06WL61Cvxw90pnkDMEH7d54ZCaqxNZtHeeE" />
       <body>
         <main>{children}</main>
         <Toaster/>
