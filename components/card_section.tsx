@@ -42,13 +42,13 @@ export default function CardSection() {
 
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
-                    <CardTitle>Portfolio</CardTitle>
-                    <a href="https://portfolio.gounevps.com" className="text-cyan-400">portofolio.gounevps.com</a>
+                    <CardTitle>SwipeTrip</CardTitle>
+                    <a href="https://swip-trip.vercel.app/" className="text-cyan-400">swip-trip.vercel.app</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot3.png" alt="" />
                     <div className="mt-8">
-                        <Badge>Next JS</Badge> <Badge>Tailwind</Badge> <Badge>Express</Badge>
+                        <Badge>Next JS</Badge> <Badge>Tailwind</Badge> <Badge>ThreeJS</Badge>
                     </div>
                 </CardContent>
             </Card>
