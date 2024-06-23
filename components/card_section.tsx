@@ -22,7 +22,7 @@ export default function CardSection() {
                 <CardContent>
                     <img src="images/app_screenshot.png" alt="" />
                     <div className="mt-8">
-                        <Badge>React JS</Badge> <Badge>Tailwind</Badge> <Badge>Express</Badge> <Badge>MongoDB</Badge>
+                        <Badge>React</Badge> <Badge>Tailwind</Badge> <Badge>Express</Badge> <Badge>MongoDB</Badge>
                     </div>
                 </CardContent>
             </Card>
@@ -35,20 +35,20 @@ export default function CardSection() {
                 <CardContent>
                     <img src="images/app_screenshot2.png" alt="" />
                     <div className="mt-8">
-                        <Badge>React JS</Badge> <Badge>Tailwind</Badge> <Badge>ChatGPT integration</Badge>
+                        <Badge>React</Badge> <Badge>Tailwind</Badge> <Badge>ChatGPT integration</Badge>
                     </div>
                 </CardContent>
             </Card>
 
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
-                    <CardTitle>SwipeTrip</CardTitle>
+                    <CardTitle>SwipTrip</CardTitle>
                     <a href="https://swip-trip.vercel.app/" className="text-cyan-400">swip-trip.vercel.app</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot3.png" alt="" />
                     <div className="mt-8">
-                        <Badge>Next JS</Badge> <Badge>Tailwind</Badge> <Badge>ThreeJS</Badge>
+                        <Badge>NextJS</Badge> <Badge>Tailwind</Badge> <Badge>Stripe</Badge> <Badge>ThreeJS</Badge>
                     </div>
                 </CardContent>
             </Card>
