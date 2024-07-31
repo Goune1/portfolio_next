@@ -29,13 +29,13 @@ export default function CardSection() {
 
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
-                    <CardTitle>Spotistats</CardTitle>
-                    <a href="https://spotistats.gounevps.com" className="text-cyan-400">spotistats.gounevps.com</a>
+                    <CardTitle>RankingComparator</CardTitle>
+                    <a href="https://ranking-comparator.vercel.app/" className="text-cyan-400">ranking-comparator.vercel.app</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot2.png" alt="" />
                     <div className="mt-8">
-                        <Badge>React</Badge> <Badge>Tailwind</Badge> <Badge>ChatGPT integration</Badge>
+                        <Badge>NextJS</Badge> <Badge>Tailwind</Badge> <Badge>ChatGPT integration</Badge>
                     </div>
                 </CardContent>
             </Card>
