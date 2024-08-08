@@ -17,7 +17,7 @@ export default function CardSection() {
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>WineService</CardTitle>
-                    <a href="https://wine.gounevps.com" className="text-cyan-400">wine.gounevps.com</a>
+                    <a href="https://wine.gounevps.com" className="text-cyan-400 underline">wine.gounevps.com</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot.png" alt="" />
@@ -30,7 +30,7 @@ export default function CardSection() {
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>RankingComparator</CardTitle>
-                    <a href="https://ranking-comparator.vercel.app/" className="text-cyan-400">ranking-comparator.vercel.app</a>
+                    <a href="https://ranking-comparator.vercel.app/" className="text-cyan-400 underline">ranking-comparator.vercel.app</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot2.png" alt="" />
@@ -43,7 +43,7 @@ export default function CardSection() {
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>SwipeTrip</CardTitle>
-                    <a href="https://swipe-trip.vercel.app/" className="text-cyan-400">swip-trip.vercel.app</a>
+                    <a href="https://swipe-trip.vercel.app/" className="text-cyan-400 underline">swip-trip.vercel.app</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot3.png" alt="" />
