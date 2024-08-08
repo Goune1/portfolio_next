@@ -41,12 +41,12 @@ export default function Home() {
             </div>
       </div>
 
-      <div className="flex mt-24 lg:mt-48 ml-8 lg:ml-48">
+      <div className="flex mt-36 lg:mt-48 ml-8 lg:ml-48">
         <div className="w-custom">
-          <h1 className="text-4xl lg:text-7xl font-semibold">Hey, I&apos;m <span className="text-indigo-600">Gaël</span>👋</h1>
-          <h2 className="text-2xl lg:text-4xl h-8">I&apos;m an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
+          <h1 className="text-5xl lg:text-7xl font-semibold tracking-tight">Hey, I&apos;m <span className="text-indigo-600">Gaël</span>👋</h1>
+          <h2 className="text-2xl lg:text-4xl h-8 tracking-tight pr-12 md:pr-0">I&apos;m an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
           <div className="pt-4 lg:pt-2"> 
-            <p className="text-lg lg:text-xl pt-4">I currently live in <span className="bg-slate-800 rounded-lg p-1">Bordeaux, France 🇫🇷</span></p>
+            <p className="text-lg lg:text-xl pt-4 tracking-tight">I currently live in <span className="bg-slate-800 rounded-lg p-1">Bordeaux, France 🇫🇷</span></p>
             <div className="pt-2">
               <Socials/>
             </div>
@@ -55,11 +55,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-96 pb-48 ml-8 lg:ml-48">
+      <div className="ml-8 lg:ml-48 mt-72 lg:mt-96 pb-48">
         <Badge>Projects</Badge>
         <div className="mt-4">
-          <h1 className="text-3xl md:text-4xl  lg:text-5xl font-semibold ">Discover my <span className="text-indigo-600 font-bold">projects</span></h1>
-          <div data-aos="fade-right">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold ">Discover my <span className="text-indigo-600 font-bold">projects</span></h1>
+          <div className="-mt-8">
             <CardSection/>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
       <div className="ml-8 lg:ml-48 pb-48">
         <Badge>Skills</Badge>
 
-        <div className="mt-4">
+        <div className="mt-4 pr-4">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold">I <span className="text-indigo-600 font-bold">love</span> working on...</h1>
           
           <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2 custom:grid-cols-3 mt-24" >
