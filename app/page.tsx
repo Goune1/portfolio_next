@@ -46,7 +46,7 @@ export default function Home() {
           <h1 className="text-5xl lg:text-7xl font-semibold tracking-tight">Hey, I&apos;m <span className="text-indigo-600">Gaël</span>👋</h1>
           <h2 className="text-2xl lg:text-4xl h-8 tracking-tight pr-12 md:pr-0">I&apos;m an <FlipWords words={WordsArray} className="text-indigo-600 font-bold"/> web developer</h2>
           <div className="pt-4 lg:pt-2"> 
-            <p className="text-lg lg:text-xl pt-4 tracking-tight">I currently live in <span className="bg-slate-800 rounded-lg p-1">Bordeaux, France 🇫🇷</span></p>
+            <p className="text-lg lg:text-xl pt-4 flex">I currently live in <span className="bg-slate-800 rounded-lg p-1 flex -mt-1 ml-1">Bordeaux, France <img src="france.jpg" className="w-10 h-6 mt-0.5 ml-0.5" alt="" /></span></p>
             <div className="pt-2">
               <Socials/>
             </div>
