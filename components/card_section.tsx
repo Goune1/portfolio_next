@@ -43,7 +43,7 @@ export default function CardSection() {
             <Card className="w-72 h-96 lg:w-96 lg:h-96">
                 <CardHeader>
                     <CardTitle>SwipeTrip</CardTitle>
-                    <a href="https://swipe-trip.vercel.app/" className="text-cyan-400 underline">swip-trip.vercel.app</a>
+                    <a href="https://swipe-trip.vercel.app/" className="text-cyan-400 underline">swipe-trip.vercel.app</a>
                 </CardHeader>
                 <CardContent>
                     <img src="images/app_screenshot3.png" alt="" />
