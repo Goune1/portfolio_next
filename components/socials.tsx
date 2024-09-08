@@ -1,6 +1,6 @@
 "use client"
 
-import { Instagram, Twitter, Youtube, Github, LucideProps } from 'lucide-react';
+import { Twitter, Youtube, Github, LucideProps } from 'lucide-react';
 
 interface NavigationItem {
   name: string;
@@ -9,11 +9,6 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  {
-    name: 'Instagram',
-    href: 'https://instagram.com/gael.ldo',
-    icon: (props: LucideProps) => <Instagram {...props} />,
-  },
   {
     name: 'Twitter',
     href: 'https://x.com/goune_',
