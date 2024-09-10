@@ -11,11 +11,6 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   {
-    name: 'Instagram',
-    href: 'https://instagram.com/gael.ldo',
-    icon: (props: LucideProps) => <Instagram {...props} />,
-  },
-  {
     name: 'Twitter',
     href: 'https://x.com/goune_',
     icon: (props: LucideProps) => <Twitter {...props} />,
